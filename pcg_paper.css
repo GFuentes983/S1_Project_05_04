@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Gabriel Fuentes
+   Date: 10.26.18
+
+   Filename: pcg_paper.css
+   Supporting Files: 
+
+*/
+
+html {
+   background: #8A7874; 
+}
+
+body {
+    background: #FEDEB9;
+    height: 100%;
+    width: 95%;
+    min-width: 25%;
+    max-width: 95%;
+    position: relative;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+nav {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+
+nav li {
+    list-style: none;
+
+}
+
+nav a {
+    text-decoration: none;
+}
